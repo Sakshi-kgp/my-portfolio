@@ -237,6 +237,10 @@ text-align: center;
   .home {
     flex-direction: row;
   }
+    .pro{
+  display: flex;
+  flex-direction: column;
+}
 }
 
 /* Desktop and up (≥ 992px) */
@@ -263,7 +267,7 @@ margin: 2px;
     align-items: flex-start;
   }
   .right a {
-    margin: 5px 0;
+ margin: 3px;
   }
   .btn {
     width: 80%;
